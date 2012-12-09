@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+
+#page-container {
+		font-family:"Comic-Sans";
+		}
+#left{
+	width: 25%;
+	float: left;
+	margin-left: 35px;
+	margin-top: 25px;
+	font-weight:bold;
+	font-size:30px;
+}
+#middle{
+	margin-left: 35%;
+	margin-right: auto;
+	width:25%;
+    padding:25px 25px 25px 25px;
+}
+p#blurb{
+	padding: 25px 25px 25px 25px;
+}
+table#register{
+	vertical-align:bottom;
+	text-align:left;
+}
+img#logo{
+	height:150%;
+	width:200%;
+	margin-left:15px;
+	margin-bottom:45px;
+}
+#right{
+	position:absolute;
+	top:2%;
+	height:95%;
+	right:.5%;	
+	text-align:center;
+}
+form#search{
+	text-align:right;
+	padding: 10px;
+}
+hr#rightbar{
+	width:85%;
+	position:absolute;
+    bottom:15%;
+    right:0;
+}
+#bottomright{
+	display:block;
+ 	position:absolute;
+    bottom:0;
+    right:15%;
+    border:1px solid #ddd;
+}

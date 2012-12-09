@@ -1,0 +1,70 @@
+@CHARSET "ISO-8859-1";
+
+#page-container {
+		font-family:"Comic-Sans";
+		}
+#left{
+	width: 25%;
+	float: left;
+	margin-left: 35px;
+	margin-top: 25px;
+	font-weight:bold;
+	font-size:30px;
+}
+#middle{
+	margin-left: 25%;
+	margin-right: auto;
+	width:35%;
+	height:100%;
+    padding:25px 25px 25px 25px;
+    text-align:center;
+}
+p#blurb{
+	padding: 25px 25px 25px 25px;
+}
+table#register{
+	vertical-align:bottom;
+	text-align:left;
+}
+img#logo{
+	height:150%;
+	width:200%;
+	margin-left:15px;
+	margin-bottom:45px;
+}
+#right{
+	position:absolute;
+	top:2%;
+	height:95%;
+	width:35%;
+	right:.5%;	
+	text-align:center;
+}
+ input[type="image"] {
+        border: 0;
+        width: 30px;
+        height: 30px;
+    }
+form#search{
+	text-align:right;
+	padding: 10px;
+}
+hr#rightbar{
+	width:85%;
+	position:absolute;
+    bottom:15%;
+    right:0;
+}
+#feedbacks{
+	height:70%;
+	width:92%;
+	padding: 25px 25px 25px 25px;
+	overflow: scroll;
+}
+#bottomright{
+	display:block;
+ 	position:absolute;
+    bottom:0;
+    right:15%;
+    border:1px solid #ddd;
+}

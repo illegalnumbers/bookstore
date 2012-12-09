@@ -1,0 +1,32 @@
+<html>
+<head>
+<LINK REL=StyleSheet HREF="styles/styles.css" TYPE="text/css"/>
+<script src="./scripts/jquery.js"></script>
+<script src="./scripts/checkPageInput.js"></script>
+<script src="./scripts/Utilities.js"></script>
+<title>Welcome to Super Books!</title>
+</head>
+<body>
+<div id="page-container">
+<div id = "header">
+<img src = "./images/longlogo.jpg" id="longlogo"/>
+</div>
+<div id = "bottom">
+<div id = "left">
+This is the description for Super Books! Super books is a site I'm doing development for my CS5530 (Database Systems) course! I took the course in spring of 2012 and it was taught by Feifei Li. The class was very challenging and included a lot of material on different database systems, types of organization, etc. I learned a lot. I also reviewed alot of different web development tecniques which will be demonstrated here. These are (but not limited to) Javascript, Java, XML, SQL, MySQL, JQuery, AJAX and others! Thanks for listening and have fun on Super Books!
+</div>
+<div id = "center">
+<img id="logo" src = "./images/logo.jpg" /><br/>
+<p id="blurb">Please log in to view user data or <a href="register.jsp">register!</a></p>
+<form action="checklogin.jsp" id = "login" method="post" onsubmit="return validateLogin(&#34;login&#34;);">
+<input type="text" name="username" value="Enter Username" onclick="changeContentsOnClick(&#34;login&#34;,&#34;username&#34;)"/><br />
+<input type="text" name="password" value="Enter Password" onclick="changeContentsOnClick(&#34;login&#34;,&#34;password&#34;)"/><br />
+<input type="submit" value="Login"/>
+</form>
+</div>
+<div id="right">
+</div>
+</div>
+</div>
+</body>
+</html>

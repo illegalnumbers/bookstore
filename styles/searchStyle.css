@@ -1,0 +1,62 @@
+@CHARSET "ISO-8859-1";
+#page-container{
+}
+
+#left{
+	position:absolute;
+	width: 15%;
+	float: left;
+	font-weight:bold;
+	font-size:16px;
+}
+img#leftlogo{
+	position:relative;
+	float:left;
+}
+p#welcome{
+	text-align:center;
+	top:0;
+}
+
+#middle{
+	position:absolute;
+	margin-left: 4%;
+	top: 100px;
+	width:70%;
+	bottom:0;
+}
+
+#results{
+	position:absolute;
+	width:96%;
+	height:67.5%;
+	padding: 30px 15px 25px 25px;
+	overflow:scroll;
+}
+
+#right{
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:.5%;	
+	width:25%;
+	text-align:center;
+}
+hr#rightbar{
+	width:85%;
+	position:absolute;
+    bottom:15%;
+    right:0;
+}
+#bottomright{
+	display:block;
+ 	position:absolute;
+    bottom:0;
+    right:15%;
+    border:1px solid #ddd;
+}
+#buyingsuggestions{
+	padding:10px 10px 10px 10px;
+	height:80%;
+	width:100%;
+}

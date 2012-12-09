@@ -1,0 +1,40 @@
+#page-container {
+		font-family:"Comic-Sans";
+		}
+#top{
+	font-weight:bold;
+	font-size:16px;;
+}
+#bottom{
+    padding:25px 25px 25px 25px;
+}
+img#logo{
+	height:150%;
+	width:200%;
+	margin-left:15px;
+	margin-bottom:45px;
+}
+#bookstats{
+	height:100%;
+	width:100%;
+	overflow:scroll;
+}
+#authorstats{
+	overflow:scroll;
+}
+#subjectstats{
+	overflow:scroll;
+}
+#trustedusers{
+	overflow:scroll;
+}
+#usefulusers{
+	overflow:scroll;
+}
+table{
+	width:100%;
+	height:100%;
+}
+td{
+	padding:35px;
+}

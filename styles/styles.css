@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+
+1 #page-container {
+2	    width: 760px;
+3	    margin: auto;
+		font-family:"Comic-Sans";
+4	}
+
+#header{
+	margin-top:25px;
+	height: 75px;
+	margin-left:35px;
+	margin-right:35px;
+}
+img#longlogo{
+	width:100%;
+	height:100%;
+}
+
+#bottom{
+	height: 84%;
+}
+
+#left{
+	width: 25%;
+	float: left;
+	margin-left: 65px;
+	margin-top: 25px;
+}
+
+#center{
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	padding-top:25px;
+	padding-bottom:25px;
+	padding-right:50px;
+	padding-left:50px;
+}
+img#logo{
+	height:40%;
+	width:75%;
+	margin-left:15px;
+	margin-bottom:45px;
+}
+form#login{
+	margin-left:20%;
+	margin-bottom:45px;
+}
+p#blurb{
+	margin-left:20%;
+}
+
+#right{
+	position: fixed;
+	top: 16%;
+	width: 30%;
+	height: 90%;
+	margin-left: 68%;
+}

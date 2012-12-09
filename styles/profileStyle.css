@@ -1,0 +1,59 @@
+@CHARSET "ISO-8859-1";
+
+#page-container {
+		font-family:"Comic-Sans";
+		}
+#left{
+	width: 25%;
+	float: left;
+	margin-left: 35px;
+	margin-top: 25px;
+	font-weight:bold;
+	font-size:30px;
+}
+#suggestedbooks{
+	width:90%;
+	margin-left:25px;
+	margin-right:25px;
+	margin-top:20%;
+	padding: 20px,20px,20px,20px;	
+	font-weight:normal;
+	font-style:italic;
+	font-size:16px;
+}
+#middle_userinfo{
+	margin-left: 35%;
+	margin-right: auto;
+	width:25%;
+    padding:25px 25px 25px 25px;
+}
+img#logo{
+	height:150%;
+	width:200%;
+	margin-left:15px;
+	margin-bottom:45px;
+}
+#right{
+	position:absolute;
+	top:2%;
+	right:.5%;	
+	text-align:center;
+}
+form#search{
+	text-align:right;
+	padding: 10px;
+}
+hr#rightbar{
+	width:85%;
+}
+p.trust{
+	width:50%;
+	margin: auto auto auto auto;
+	padding:3cm 0cm 2cm 0cm;
+}
+#bottomright{
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	margin: 0 auto -4em;
+}
